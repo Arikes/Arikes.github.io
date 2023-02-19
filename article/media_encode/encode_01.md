@@ -27,24 +27,26 @@ FFmpeg是业界很领先的媒体处理框架，可以用来解码，编码，�
 
 它包含libavcodec,libavutil,libavformat,libavfilter,libavdevice,libswscale以及libswresample这几个模块，可以在应用程序中直接作为库调用。<br>
 
-| 模块      | 功能 |
-| ----------- | ----------- |
-| libavcodec      | 音视频编码库，包含h264,h265,aac,opus等，是最晦涩的模块了 |
-| libavutil   | 如名，是个工具模块    |
+| 模块           | 功能 |
+| -----------   | ----------- |
+| libavcodec    | 音视频编码库，包含h264,h265,aac,opus等，是最晦涩的模块了 |
+| libavutil     | 如名，是个工具模块    |
 | libavformat   | 文件格式解析[rmvb,avi,mp3,mp4]，以及协议库[http,file]  |
 | libavfilter   | 音视频滤镜库,支持视频反转，旋转，裁剪等  |
 | libavdevice   | 输入输出设备库，支持音视频设备采集，播放|
-| libswscale   | 用于图像格式转换，支持类似yuv转rgb        |
-| libswresample   | 音频重采样库,支持音频的原始格式间转换        |
+| libswscale    | 用于图像格式转换，支持类似yuv转rgb        |
+| libswresample | 音频重采样库,支持音频的原始格式间转换        |
+
 <br>
 
 同时也提供了三个工具，ffmpeg，ffplay，ffprobe,可以被用户直接用来转换媒体格式，推流，分析媒体文件，播放媒体文件.<br>
 
-| 模块      | 功能 |
-| ----------- | ----------- |
-| ffmpeg      | 格式转换，推流，转码       |
+| 模块     | 功能 |
+| -------- | ----------- |
+| ffmpeg   | 格式转换，推流，转码       |
 | ffplay   | 媒体播放        |
-| ffprobe   | 媒体格式探测、分析        |
+| ffprobe  | 媒体格式探测、分析        |
+
 <br>
 总之，就是非常强大的框架。
 
