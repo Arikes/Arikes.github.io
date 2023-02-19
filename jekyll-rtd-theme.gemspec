@@ -2,9 +2,9 @@ Gem::Specification.new do |spec|
   spec.name          = "Arikes的博客"
   spec.version       = "2.0.10"
   spec.authors       = ["saowang"]
-  spec.email         = ["saowang@outlook.com"]
+  spec.email         = ["liang0035@163.com"]
 
-  spec.summary       = "Just another documentation theme compatible with GitHub Pages"
+  spec.summary       = "技术分享博客"
   spec.license       = "MIT"
   spec.homepage      = "https://github.com/rundocs/Arikes"
 
