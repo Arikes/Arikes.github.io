@@ -29,8 +29,7 @@
 ***
 
 ## 站点目录
-[00-00、首页](https:://arikes.github.io/)<br>
-[00-01、MarkDown语法示例](https://arikes.github.io/test/markdown.html)<br>
+[00-00、MarkDown语法示例](https://arikes.github.io/test/markdown.html)<br>
 [01-01、音视频入门](https:://arikes.github.io/) <br>
 
 
