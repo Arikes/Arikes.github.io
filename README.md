@@ -7,19 +7,27 @@
 ***
 ## 使用到的技术栈
 
-1、音视频技术[00]:FFmpeg
+### 1、音视频技术[00]
+>FFmpeg C C++
 
-2、渲染技术[01]:OpenGL
+### 2、渲染技术[01]
+>OpenGL
 
-3、界面开发[02]：C++ Qt
+### 3、界面开发[02]
+>C++ Qt
 
-4、移动端开发[03]：<br>
-Android java
-iOS OC
+### 4、移动端开发[03]<br>
+>Android:java<br>
+>iOS:OC
 
-5、设计模式[04]
-C++
+### 5、设计模式[04]
+>C++
+
+### 6、工具杂文[05]
+<br>
+
 ***
+
 ## 站点目录
 [00-00、首页](https:://arikes.github.io/)<br>
 [01-01、音视频入门](https:://arikes.github.io/) <br>
