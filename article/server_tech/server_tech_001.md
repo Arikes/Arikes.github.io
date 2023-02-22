@@ -9,6 +9,16 @@ Redis 是一个高性能的key-value数据库。 redis的出现，很大程度�
 
 Redis支持主从同步。数据可以从主服务器向任意数量的从服务器上同步，从服务器可以是关联其他从服务器的主服务器。这使得Redis可执行单层树复制。存盘可以有意无意的对数据进行写操作。由于完全实现了发布/订阅机制，使得从数据库在任何地方同步树时，可订阅一个频道并接收主服务器完整的消息发布记录。同步对读取操作的可扩展性和数据冗余很有帮助。
 
+
+chatgpt say:  
+Redis比memcache更好的地方有：  
++ 1.Redis支持更多的数据类型，包括字符串、列表、集合、有序集合等；  
++ 2.Redis支持持久化，可以将数据保存到磁盘，而memcache不支持；  
++ 3.Redis支持数据备份，可以将数据备份到其他服务器，而memcache不支持；  
++ 4.Redis支持事务，可以将多个操作作为一个原子操作执行，而memcache不支持；  
++ 5.Redis支持分布式，可以将数据分布到多台服务器上，而memcache不支持。
+
+
 ## 二、redis安装
 
 [redis官网](https://redis.io/download/#redis-downloads) (https://redis.io/download/#redis-downloads)
