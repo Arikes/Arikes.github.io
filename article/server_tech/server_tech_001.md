@@ -173,3 +173,5 @@ sudo make install
 
 [mac安装redis+使用超简单教程](https://blog.csdn.net/weixin_50072355/article/details/124019374)
 
+[redis如何持久化](https://www.cnblogs.com/linhuiy/p/16040516.html)
+
