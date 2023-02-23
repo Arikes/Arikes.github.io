@@ -185,3 +185,4 @@ sudo make install
 
 [redis如何持久化](https://www.cnblogs.com/linhuiy/p/16040516.html)
 
+[Redis和Memcache区别，优缺点对比](https://www.cnblogs.com/JavaBlackHole/p/7726195.html)
