@@ -74,3 +74,39 @@ data：边缘数据的指针
 size：边缘数据的大小
 flags：注入标志，可以是AV_SIDE_DATA_PARAM_CHANGE_FLAG_SKIP_REORDERING或AV_SIDE_DATA_PARAM_CHANGE_FLAG_IGNORE_CHROMA_POSITION
 ```
+
+## 1.9 avformat_alloc_context
+
+```
+avformat_alloc_context 这个函数可以被用来申请并且初始化一个AVFormatContext类型数据;
+申请一个AVFormatContext类型数据空间。这个函数会同时赋值一些基本的信息[用户一般后面也不会改变的字段]到AVFormatContext结构体中。
+成功的话返回一个新建的指针；失败则返回NULL.
+```
+
+## 1.10 PMTS
+```
+PMTS全称Program Map Tables,是一种特别的数据表，表明一个数字媒体文件中的用到了哪些格式的音频流，视频流以及其他类型的数据。PMTS在很多多媒体应用中是非常重要的，比如基于IP网络的视频流。他们会提供关于流类型、传输协议、视频编码格式，数据率等信息给应用程序使用。
+```
+
+## 1.11 av_find_input_format
+```
+av_find_input_format 函数.根据参数指定的名字在已注册的支持的输入格式列表中查找格式。
+```
+
+## 1.12 av_gettime_relative
+```
+av_gettime_relative()函数，用于以一种相对格式返回自
+指定的起始点以来的当前时间。换句话说，它返回过去某个特定点以来的微秒数，而不涉及实际的日历日期和时间。该API用于很方便的实现相对计时器或测量时间差方便。
+此API 是线程安全的。 返回值是单调递增的，在系统时间连续时，以恒定的速率增加。
+```
+
+## 1.12 avformat_free_context
+
+
+## 1.13 AVFMT_FLAG_GENPTS
+
+
+# 参考
+[FFmpeg之ffplay源码各个结构体中的serial字段分析](https://www.jianshu.com/p/8312e0e462ac)
+
+
