@@ -1,12 +1,4 @@
-# RTMP协议
-
+# FFplay之serial
 
 ## 参考
-
-[Wiki. Real-Time Messaging Protocol](https://en.wikipedia.org/wiki/Real-Time_Messaging_Protocol)
-
-[rtmp 协议详解 (一) handshake](https://my.oschina.net/lwl1989/blog/4814464)
-
-[RTMP (Real-Time Messaging Protocol) – How Does It Work](https://ottverse.com/rtmp-real-time-messaging-protocol-encoding-streaming/)
-
-[流媒体：RTMP 协议完全解析](https://blog.51cto.com/u_14813976/5253348)
+[FFmpeg之ffplay源码各个结构体中的serial字段分析](https://www.jianshu.com/p/8312e0e462ac)
